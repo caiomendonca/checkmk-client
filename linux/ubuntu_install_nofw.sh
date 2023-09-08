@@ -44,6 +44,7 @@ CMKIP=$(nslookup cmk-server | grep -A1 Name | tail -n1 | sed 's/Address: //')
 ## OBS: linha acima com nslookup precisa alterar para variavel e testar
 # instala pacotes necessarios basicos
 apt update -y
+apt install nslookup -y
 apt install curl -y
 apt install wget -y
 #apt install iptables-persistent -y
