@@ -3,7 +3,7 @@
 helpFunction()
 {
    echo ""
-   echo "Forma de utilização: $0 -u cmkadmin -p senhacmkadmin -h cmk-server"
+   echo "Forma de utilização: $0 -u cmkadmin -p senhacmkadmin -h cmk-server -s central"
    echo -e "\t-u Nome de usuário do servidor CheckMK"
    echo -e "\t-p Senha do usuário do CheckMK"
    echo -e "\t-h Hostname do servidor CheckMK"
