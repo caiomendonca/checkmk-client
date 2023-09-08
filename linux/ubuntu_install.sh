@@ -40,7 +40,7 @@ CMK_SERVER=$parameterH
 AGENT_VERSION="2.2.0p7-1"
 CMK_PORT="5000"
 CMK_PORT_REGISTER="8000"
-CMKIP=$(nslookup cmk-server | grep -A1 Name | tail -n1 | sed 's/Address: //')
+CMKIP=$(nslookup cmk-server.cmconsultor.com.br | grep -A1 Name | tail -n1 | sed 's/Address: //')
 ## OBS: linha acima com nslookup precisa alterar para variavel e testar
 # instala pacotes necessarios basicos
 apt update -y
